@@ -1,0 +1,38 @@
+# Bí mật / môi trường
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Model lớn (>100MB, vượt giới hạn GitHub) - tải từ Drive theo README
+model/*.h5
+model/*.keras
+*.tflite
+
+# Ảnh mắt / dataset / ảnh người dùng tải lên - KHÔNG đưa lên repo
+uploads/
+dataset/
+datasets/
+images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.heic
+*.webp
+*.zip
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
